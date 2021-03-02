@@ -27,10 +27,11 @@ public class ViewController {
 
 	private static final String RECAPTCHA_SERVICE_URL = "https://www.google.com/recaptcha/api/siteverify";
 	private static final String SECRET_KEY = "6Ld-qqMZAAAAACT-LRAem-n7vUtWxnTL0JMa9t-v";
-
+	
+	
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String loginPage() {
-		System.out.println("welcome");
+		System.out.println("welcome to mywebsite");
 		return "login";
 	}
 
