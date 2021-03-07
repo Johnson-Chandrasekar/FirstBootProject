@@ -31,7 +31,7 @@ public class ViewController {
 	
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String loginPage() {
-		System.out.println("welcome to my website");
+		System.out.println("welcome to my website..");
 		return "login";
 	}
 
